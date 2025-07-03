@@ -40,7 +40,7 @@ class MainActivity : ComponentActivity() {
                         composable(
                             route = Screen.Results.route,
                             arguments = listOf(navArgument("category") { type = NavType.StringType})
-                        ) { backStackEntry ->
+                        ) { backStackEntry -> // this part is responsible for going to home screen from the category you selected (films,vehicles,etc) 
                             val category = backStackEntry.arguments?.getString("category") ?: ""
                             ResultScreen(category = category, navController = navController)
                         }

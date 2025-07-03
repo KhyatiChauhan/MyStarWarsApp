@@ -18,6 +18,6 @@ Error and loading states for a polished UX
 
 ## Installation (APK)
 1. Clone this repo and build the project in Android Studio
-2. Locate the generated APK in '/app/build/outputs/apk/debug/'
+2. Locate the generated APK in '/app/build/'
 3. Transfer the APK to your phone and enable "Install from Unknown Sources"
 4. Install the app and explore the Star Wars world!

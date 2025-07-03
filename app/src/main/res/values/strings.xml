@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyStarWarsApp</string>
+    <string name="loading_failed">loading_failed</string>
+    <string name="loading">loading</string>
+    <string name="placeholder_result">placeholder_result</string>
+</resources>
